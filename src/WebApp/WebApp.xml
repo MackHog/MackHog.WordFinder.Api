@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApp</name>
+    </assembly>
+    <members>
+        <member name="M:WebApp.Controllers.FindController.Find(System.String)">
+            <summary>
+            Finds words contianing the input characters
+            </summary>
+            <param name="characters"></param>
+            <returns>List of found words</returns>
+        </member>
+    </members>
+</doc>
