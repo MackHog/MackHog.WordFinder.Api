@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Infra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\Domain\Domain.csproj", "{F0282C30-D9C3-4A9C-B1AC-891AEB32F035}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7650BE7D-DDBB-4253-A71A-B46FE32F90CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder.Tests", "tests\WordFinder.Tests\WordFinder.Tests.csproj", "{AD0966AC-9211-43BE-9794-0FCDF3CD3488}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,10 @@ Global
 		{F0282C30-D9C3-4A9C-B1AC-891AEB32F035}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0282C30-D9C3-4A9C-B1AC-891AEB32F035}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0282C30-D9C3-4A9C-B1AC-891AEB32F035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0966AC-9211-43BE-9794-0FCDF3CD3488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0966AC-9211-43BE-9794-0FCDF3CD3488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0966AC-9211-43BE-9794-0FCDF3CD3488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0966AC-9211-43BE-9794-0FCDF3CD3488}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +45,7 @@ Global
 		{5146FD5A-5B81-4536-B07C-FD98A70FCB80} = {B750830D-D867-4F24-9FB4-0FB896E0C997}
 		{16823FEB-0036-42C5-ABE8-F13B24B3C884} = {B750830D-D867-4F24-9FB4-0FB896E0C997}
 		{F0282C30-D9C3-4A9C-B1AC-891AEB32F035} = {B750830D-D867-4F24-9FB4-0FB896E0C997}
+		{AD0966AC-9211-43BE-9794-0FCDF3CD3488} = {7650BE7D-DDBB-4253-A71A-B46FE32F90CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13BED061-8D56-4957-957B-D31DFE42AC5E}

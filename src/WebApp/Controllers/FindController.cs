@@ -26,6 +26,9 @@ namespace WebApp.Controllers
         [HttpGet]
         public IActionResult Find([FromQuery]string characters)
         {
+            if (string.IsNullOrWhiteSpace(characters))
+                return BadRequest("Missing characters");
+
             var words = _wordService.Find(characters);
             return Ok(words);
         }
